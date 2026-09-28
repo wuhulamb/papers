@@ -1,0 +1,24 @@
+{
+  "name": "paper-downloader",
+  "version": "1.0.0",
+  "description": "通过 Chrome DevTools Protocol (CDP) 批量下载中英文学术论文：CNKI 中文文献（自动处理滑块验证）与英文文献（Bing/Crossref 定位、pdf-parse 题名校验）。",
+  "bin": {
+    "cnki-dl": "bin/cnki-dl.js",
+    "en-dl": "bin/en-dl.js"
+  },
+  "scripts": {
+    "cnki": "node bin/cnki-dl.js",
+    "cnki:example": "node bin/cnki-dl.js --config examples/cnki-guoqi.json",
+    "en": "node bin/en-dl.js",
+    "en:example": "node bin/en-dl.js --config examples/en-guoqi.json",
+    "get-dois": "node tools/get-dois.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "private": true
+}

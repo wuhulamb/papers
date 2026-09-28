@@ -1,0 +1,26 @@
+{
+  "outputDir": "../output/长三角城市投资联系_参考文献",
+  "tmpDir": "/tmp/refs-en-dl",
+  "rejectedDir": "/tmp/refs-en-rejected",
+  "logFile": "../output/长三角城市投资联系_参考文献/en-log.json",
+  "paperBudgetMs": 90000,
+  "downloadTimeoutMs": 18000,
+  "useBing": true,
+  "papers": [
+    { "id": 1, "title": "Static vs. dynamic agglomeration economies: Spatial context and structural evolution behind urban growth", "authors": "Camagni R, Capello R, Caragliu A", "source": "Papers in Regional Science", "year": "2017", "doi": "10.1111/pirs.12182" },
+    { "id": 2, "title": "Borrowing size in networks of cities: City size, network connectivity and metropolitan functions in Europe", "authors": "Meijers E J, Burger M J, Hoogerbrugge M M", "source": "Papers in Regional Science", "year": "2016", "doi": "10.1111/pirs.12181" },
+    { "id": 6, "title": "Measurement of the world city network", "authors": "Taylor P J, Catalano G, Walker D", "source": "Urban Studies", "year": "2002", "doi": "10.1080/00420980220080011" },
+    { "id": 7, "title": "Pathways of change: Shifting connectivities in the world city network, 2000-2008", "authors": "Derudder B, Taylor P J, Ni P, et al", "source": "Urban Studies", "year": "2010", "doi": "10.1177/0042098010372682" },
+    { "id": 8, "title": "Power and position in the world city system", "authors": "Alderson A S, Beckfield J", "source": "American Journal of Sociology", "year": "2004", "doi": "10.1086/378930" },
+    { "id": 9, "title": "The multipolar regionalization of cities in multinational firms' networks", "authors": "Rozenblat C, Zaidi F, Bellwald A", "source": "Global Networks", "year": "2017", "doi": "10.1111/glob.12130" },
+    { "id": 12, "title": "Global city clusters: Theorizing spatial and non-spatial proximity in inter-urban firm networks", "authors": "Martinus K, Sigler T J", "source": "Regional Studies", "year": "2018", "doi": "10.1080/00343404.2017.1314457" },
+    { "id": 20, "title": "Investigating China Mid-Yangtze River economic growth region using a spatial network growth model", "authors": "Shi S, Pain K", "source": "Urban Studies", "year": "2020", "doi": "10.1177/0042098019894232" },
+    { "id": 23, "title": "An analysis of the determinants of the multiplex urban networks in the Yangtze River Delta", "authors": "Zhang W, Derudder B, Wang J, Witlox F", "source": "Tijdschrift voor Economische en Sociale Geografie", "year": "2020", "doi": "10.1111/tesg.12361" },
+    { "id": 27, "title": "A theoretical framework and methodology for characterizing national urban systems on the basis of flows of people: Empirical evidence for France and Germany", "authors": "Limtanakool N, Dijst M, Schwanen T", "source": "Urban Studies", "year": "2007", "doi": "10.1080/00420980701518990" },
+    { "id": 29, "title": "Markov chain models for vegetation dynamics", "authors": "Balzter H", "source": "Ecological Modelling", "year": "2000", "doi": "10.1016/S0304-3800(00)00262-3" },
+    { "id": 30, "title": "Spatial panel econometrics", "authors": "Anselin L, Le Gallo J, Jayet H", "source": "The Econometrics of Panel Data, Springer", "year": "2008", "doi": "10.1007/978-3-540-75892-1_19" },
+    { "id": 31, "title": "Specification and estimation of spatial panel data models", "authors": "Elhorst J P", "source": "International Regional Science Review", "year": "2003", "doi": "10.1177/0160017603253791" },
+    { "id": 33, "title": "Explaining the international direct investment position of countries: Towards a dynamic or developmental approach", "authors": "Dunning J H", "source": "Weltwirtschaftliches Archiv", "year": "1981", "doi": "10.1007/bf02696577" },
+    { "id": 36, "title": "World city formation: An agenda for research and action", "authors": "Friedmann J, Wolff G", "source": "International Journal of Urban and Regional Research", "year": "1982", "doi": "10.1111/j.1468-2427.1982.tb00384.x" }
+  ]
+}

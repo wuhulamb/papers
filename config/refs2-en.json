@@ -1,0 +1,362 @@
+{
+  "outputDir": "../output/城际投资联系研究进展_参考文献",
+  "tmpDir": "/tmp/refs2-en-dl",
+  "rejectedDir": "/tmp/refs2-en-rejected",
+  "logFile": "../output/城际投资联系研究进展_参考文献/en-log.json",
+  "paperBudgetMs": 90000,
+  "downloadTimeoutMs": 18000,
+  "useBing": true,
+  "papers": [
+    {
+      "id": 1,
+      "title": "Modelling Intrametropolitan Location of Foreign Investment Firms in A Chinese City",
+      "authors": "Wu F",
+      "source": "Urban Studies",
+      "year": "2000",
+      "doi": "10.1080/00420980020080631"
+    },
+    {
+      "id": 2,
+      "title": "Information Costs, Agglomeration Economies and the Location of Foreign Direct Investment in China",
+      "authors": "He C",
+      "source": "Regional Studies",
+      "year": "2002",
+      "doi": "10.1080/0034340022000022530"
+    },
+    {
+      "id": 3,
+      "title": "FDI in Chinese Cities: Spillovers and Impact on Growth",
+      "authors": "Madariaga N, Poncet S",
+      "source": "The World Economy",
+      "year": "2007",
+      "doi": "10.1111/j.1467-9701.2007.01025.x"
+    },
+    {
+      "id": 4,
+      "title": "Spatial Inequality of Foreign Direct Investment in China: Institutional Change, Agglomeration Economies, and Market Access",
+      "authors": "Huang H, Wei Y D",
+      "source": "Applied Geography",
+      "year": "2016",
+      "doi": "10.1016/j.apgeog.2014.12.014"
+    },
+    {
+      "id": 6,
+      "title": "Functional Fragmentation and the Location of Multinational Firms in the Enlarged Europe",
+      "authors": "Defever F",
+      "source": "Regional Science and Urban Economics",
+      "year": "2006",
+      "doi": "10.1016/j.regsciurbeco.2006.06.007"
+    },
+    {
+      "id": 9,
+      "title": "Fluctuating Rounds of Inward Investment in Peripheral Regions: Semiconductors in the North East of England",
+      "authors": "Dawley S",
+      "source": "Economic Geography",
+      "year": "2007",
+      "doi": "10.1111/j.1944-8287.2007.tb00333.x"
+    },
+    {
+      "id": 12,
+      "title": "How Firm Heterogeneity Affects Foreign Direct Investment Location Choice: Micro-evidence from New Foreign Manufacturing Firms in the Pearl River Delta",
+      "authors": "Ye Y, Wu K, Xie Y, Huang G, Wang C, Chen J",
+      "source": "Applied Geography",
+      "year": "2019",
+      "doi": "10.1016/j.apgeog.2019.03.005"
+    },
+    {
+      "id": 13,
+      "title": "Global Cluster Networks—Foreign Direct Investment Flows from Canada to China",
+      "authors": "Bathelt H, Li P",
+      "source": "Journal of Economic Geography",
+      "year": "2014",
+      "doi": "10.1093/jeg/lbt005"
+    },
+    {
+      "id": 16,
+      "title": "Functional and Sectoral Division of Labour within Central and Eastern European Countries: Evidence from Greenfield FDI",
+      "authors": "Dogaru T, Burger M, Karreman B, van Oort F",
+      "source": "Tijdschrift voor Economische en Sociale Geografie",
+      "year": "2014",
+      "doi": "10.1111/tesg.12093"
+    },
+    {
+      "id": 17,
+      "title": "Foreign Direct Investment and Regional Integration: The Connectivity Role of Same-origin Greenfield Investment in the Yangtze River Delta",
+      "authors": "Pan Z, Song Y, Li X",
+      "source": "Habitat International",
+      "year": "2025",
+      "doi": "10.1016/j.habitatint.2025.103484"
+    },
+    {
+      "id": 21,
+      "title": "Unveiling the Dynamics and Determinants of World City Network: Insights from Global Airline Data",
+      "authors": "Wang B, Liu C, Sun S, Piao J, Mao W",
+      "source": "Cities",
+      "year": "2025",
+      "doi": "10.1016/j.cities.2024.105613"
+    },
+    {
+      "id": 22,
+      "title": "China's Hybrid Global City Region Pathway: Evidence from the Yangtze River Delta",
+      "authors": "Cheng Y, Legates R",
+      "source": "Cities",
+      "year": "2018",
+      "doi": "10.1016/j.cities.2018.01.015"
+    },
+    {
+      "id": 28,
+      "title": "Interurban Variation in Venture Capital Investment Characteristics",
+      "authors": "Green M B, McNaughton R B",
+      "source": "Urban Studies",
+      "year": "1989",
+      "doi": "10.1080/00420988920080171"
+    },
+    {
+      "id": 34,
+      "title": "World Cities and the Uneven Geographies of Financialization: Unveiling Stratification and Hierarchy in the World City Archipelago",
+      "authors": "Van Meeteren M, Bassens D",
+      "source": "International Journal of Urban and Regional Research",
+      "year": "2016",
+      "doi": "10.1111/1468-2427.12344"
+    },
+    {
+      "id": 35,
+      "title": "City Connectivity in the Office Networks of the World's Largest Banking Firms",
+      "authors": "Derudder B, Govind A, Taylor P J",
+      "source": "Finance and Space",
+      "year": "2024",
+      "doi": "10.1080/2833115x.2023.2265622"
+    },
+    {
+      "id": 36,
+      "title": "Mapping the Evolution of Hierarchical and Regional Tendencies in the World City Network, 2000—2010",
+      "authors": "Liu X, Derudder B, Taylor P J",
+      "source": "Computers, Environment and Urban Systems",
+      "year": "2014",
+      "doi": "10.1016/j.compenvurbsys.2013.10.004"
+    },
+    {
+      "id": 37,
+      "title": "Measurement and Interpretation of Connectivity of Chinese Cities in World City Network, 2010",
+      "authors": "Derudder B, Taylor P J, Hoyler M, Ni P, Liu X, Zhao M, Shen W, Witlox F",
+      "source": "Chinese Geographical Science",
+      "year": "2013",
+      "doi": "10.1007/s11769-013-0604-y"
+    },
+    {
+      "id": 38,
+      "title": "Dynamics and its Related Factors of Global Investment Connectivity in the Yangtze River Delta City-Region",
+      "authors": "Gao P, Zhang S, Zhang F",
+      "source": "International Regional Science Review",
+      "year": "2025",
+      "doi": "10.1177/01600176251323582"
+    },
+    {
+      "id": 42,
+      "title": "Identifying China's Leading World City: A Network Approach",
+      "authors": "Ma X, Timberlake M F",
+      "source": "Geo Journal",
+      "year": "2008",
+      "doi": "10.1007/s10708-008-9146-8"
+    },
+    {
+      "id": 44,
+      "title": "Five Decades of Research on Foreign Direct Investment by MNEs: An Overview and Research Agenda",
+      "authors": "Paul J, Feliciano-Cestero M M",
+      "source": "Journal of Business Research",
+      "year": "2021",
+      "doi": "10.1016/j.jbusres.2020.04.017"
+    },
+    {
+      "id": 45,
+      "title": "Proximity and Innovation: A Critical Assessment",
+      "authors": "Boschma R",
+      "source": "Regional Studies",
+      "year": "2005",
+      "doi": "10.1080/0034340052000320887"
+    },
+    {
+      "id": 46,
+      "title": "Featured Graphic City Networks in the United States: A Comparison of Four Models",
+      "authors": "Liu X, Neal Z, Derudder B",
+      "source": "Environment and Planning A",
+      "year": "2012",
+      "doi": "10.1068/a44496"
+    },
+    {
+      "id": 47,
+      "title": "Corporate Location, Concentration and Performance: Large Company Headquarters in the Australian Urban System",
+      "authors": "Tonts M, Taylor M",
+      "source": "Urban Studies",
+      "year": "2010",
+      "doi": "10.1177/0042098009359029"
+    },
+    {
+      "id": 49,
+      "title": "Examination and Interpretation of the Quantitative Validity in China's Corporate-based Urban Network Analysis",
+      "authors": "Zhang Z, Tang Z",
+      "source": "Chinese Geographical Science",
+      "year": "2021",
+      "doi": "10.1007/s11769-021-1175-y"
+    },
+    {
+      "id": 59,
+      "title": "Startups, Relocation, and Firm Performance: A Transaction Cost Economics Perspective",
+      "authors": "Lee I H",
+      "source": "Small Business Economics",
+      "year": "2022",
+      "doi": "10.1007/s11187-020-00406-z"
+    },
+    {
+      "id": 63,
+      "title": "Polycentricity and the Multiplexity of Urban Networks",
+      "authors": "Burger M J, van der Knaap B, Wall R S",
+      "source": "European Planning Studies",
+      "year": "2014",
+      "doi": "10.1080/09654313.2013.771619"
+    },
+    {
+      "id": 64,
+      "title": "From Theory to Practice: Mapping Polycentricity in Urban and Regional Studies",
+      "authors": "Ali K, Mojtaba S S",
+      "source": "European Journal of Spatial Development",
+      "year": "2025"
+    },
+    {
+      "id": 66,
+      "title": "Examining the Transition Processes in the Pearl River Delta Polycentric Mega-city Region through the Lens of Corporate Networks",
+      "authors": "Zhao M, Derudder B, Huang J",
+      "source": "Cities",
+      "year": "2017",
+      "doi": "10.1016/j.cities.2016.08.015"
+    },
+    {
+      "id": 67,
+      "title": "From the Pearl River Delta to the Greater Bay Area: State Spatial Selectivity, Contingent Socio-spatial Processes, and Variegated Geographies of China's City-regionalism",
+      "authors": "Liu Y, He S",
+      "source": "Transactions in Planning and Urban Research",
+      "year": "2024",
+      "doi": "10.1177/27541223241270374"
+    },
+    {
+      "id": 70,
+      "title": "Megalopolis or the Urbanization of the Northeastern Seaboard",
+      "authors": "Gottmann J",
+      "source": "Economic Geography",
+      "year": "1957",
+      "doi": "10.2307/142307"
+    },
+    {
+      "id": 71,
+      "title": "Polycentric Puzzles-emerging Mega-city Regions Seen through the Lens of Advanced Producer Services",
+      "authors": "Hoyler M, Kloosterman R C, Sokol M",
+      "source": "Regional Studies",
+      "year": "2008",
+      "doi": "10.1080/00343400802389377"
+    },
+    {
+      "id": 72,
+      "title": "Application of the Interlocking Network Model to Mega-city-regions: Measuring Polycentricity within and beyond City-regions",
+      "authors": "Taylor P J, Evans D M, Pain K",
+      "source": "Regional Studies",
+      "year": "2008",
+      "doi": "10.1080/00343400701874214"
+    },
+    {
+      "id": 73,
+      "title": "External Relations of German Cities through Intra-firm Networks—A Global Perspective",
+      "authors": "Hoyler M",
+      "source": "Raumforschung und Raumordnung",
+      "year": "2011",
+      "doi": "10.1007/s13147-011-0100-8"
+    },
+    {
+      "id": 74,
+      "title": "Strategic Globalizing Centers and Sub-network Geometries: A Social Network Analysis of Multi-scalar Energy Networks",
+      "authors": "Martinus K, Sigler T J, Searle G, Tonts M",
+      "source": "Geoforum",
+      "year": "2015",
+      "doi": "10.1016/j.geoforum.2015.06.006"
+    },
+    {
+      "id": 75,
+      "title": "Global Production Networks and Foreign Direct Investment by Small and Medium Enterprises in ASEAN",
+      "authors": "Yeung H W",
+      "source": "Transnational Corporations",
+      "year": "2017",
+      "doi": "10.18356/bf2ab1ca-en"
+    },
+    {
+      "id": 78,
+      "title": "Producer Service Linkages and City Connectivity in the Mega-city Region of China: A Case Study of the Pearl River Delta",
+      "authors": "Yeh A G O, Yang F F, Wang J",
+      "source": "Urban Studies",
+      "year": "2015",
+      "doi": "10.1177/0042098014544762"
+    },
+    {
+      "id": 79,
+      "title": "Exploring the Significance of Domestic Investment for Foreign Direct Investment in China: A City-network Approach",
+      "authors": "Shi S, Wall R, Pain K",
+      "source": "Urban Studies",
+      "year": "2019",
+      "doi": "10.1177/0042098018795977"
+    },
+    {
+      "id": 85,
+      "title": "Foreign Direct Investment and Urban Growth in Vietnam: Spatial, Economic, and Demographic Perspectives",
+      "authors": "Kim H M",
+      "source": "Asian Geographer",
+      "year": "2024",
+      "doi": "10.1080/10225706.2023.2244946"
+    },
+    {
+      "id": 90,
+      "title": "The City Network Paradigm: Measuring Urban Network Externalities",
+      "authors": "Capello R",
+      "source": "Urban Studies",
+      "year": "2000",
+      "doi": "10.1080/713707232"
+    },
+    {
+      "id": 91,
+      "title": "A network-based view of regional growth",
+      "authors": "Huggins R, Thompson P",
+      "source": "Journal of Economic Geography",
+      "year": "2014",
+      "doi": "10.1093/jeg/lbt012"
+    },
+    {
+      "id": 92,
+      "title": "Between spilling over and boiling down: network-mediated spillovers, local knowledge base and productivity in European regions",
+      "authors": "Cortinovis N, van Oort F",
+      "source": "Journal of Economic Geography",
+      "year": "2019",
+      "doi": "10.1093/jeg/lby058"
+    },
+    {
+      "id": 93,
+      "title": "Globalization: Countries, Cities and Multinationals",
+      "authors": "McCann P, Acs Z J",
+      "source": "Regional Studies",
+      "year": "2011",
+      "doi": "10.1080/00343404.2010.505915"
+    },
+    {
+      "id": 97,
+      "title": "Urban Network Externalities, Agglomeration Economies and Urban Economic Growth",
+      "authors": "Huang Y, Hong T, Ma T",
+      "source": "Cities",
+      "year": "2020",
+      "doi": "10.1016/j.cities.2020.102882"
+    },
+    {
+      "id": 98,
+      "title": "Disentangling Urban Network Externalities: The Juxtaposition of Central Place Theory and Central Flow Theory",
+      "authors": "Zhang H, Sun T",
+      "source": "Regional Studies",
+      "year": "2025",
+      "doi": "10.1080/00343404.2025.2461753"
+    }
+  ]
+}

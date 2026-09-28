@@ -1,0 +1,24 @@
+{
+  "outputDir": "../output/郭琪_英文文献",
+  "tmpDir": "/tmp/en-paper-dl",
+  "rejectedDir": "/tmp/en-paper-rejected",
+  "logFile": "../output/郭琪_英文文献/download-log.json",
+  "paperBudgetMs": 70000,
+  "downloadTimeoutMs": 14000,
+  "useBing": true,
+  "papers": [
+    { "id": 1, "title": "Chinese firms' resilience after financial crisis in the context of local economic growth targets", "authors": "Guo Qi, Zhou Yi, Feng Haoyue, Hewings Geoffrey", "source": "Regional Studies", "year": "2024", "doi": "10.1080/00343404.2024.2354367" },
+    { "id": 2, "title": "Export market relatedness, geographical diversification and regional export growth in China", "authors": "Guo Qi, Zhang Peng, Zhu Shengjun", "source": "Structural Change and Economic Dynamics", "year": "2023", "doi": "10.2139/ssrn.4359232" },
+    { "id": 3, "title": "The happiness of Chinese cities", "authors": "Qian Haifeng, Guo Qi, Zhou Shaojie, Su Yang", "source": "Journal of Urban Affairs", "year": "2023", "doi": "10.1080/07352166.2021.1962721" },
+    { "id": 4, "title": "Negative human capital externalities in well-being: evidence from Chinese cities", "authors": "Guo Qi, Qian Haifeng", "source": "Regional Studies", "year": "2021", "doi": "10.1080/00343404.2020.1861237" },
+    { "id": 5, "title": "Networks of export markets and export market diversification", "authors": "Guo Qi, Zhu Shengjun, Boschma Ron", "source": "Industrial and Corporate Change", "year": "2020", "doi": "10.1093/icc/dtaa031" },
+    { "id": 6, "title": "Strong links and weak links: how do unrelated industries survive in an unfriendly environment?", "authors": "Zhu Shengjun, Guo Qi, He Canfei", "source": "Economic Geography", "year": "2021", "doi": "10.1080/00130095.2020.1837618" },
+    { "id": 7, "title": "Entrepreneurship in China: the role of localisation and urbanisation economies", "authors": "Guo Qi, He Canfei, Li Deyu", "source": "Urban Studies", "year": "2016", "doi": "10.1177/0042098015595598" },
+    { "id": 8, "title": "Land regulating economy as a policy instrument in urban China", "authors": "Wu Jiayu, Guo Qi, Hewings Geoffrey", "source": "Cities", "year": "2019", "doi": "10.1016/j.cities.2019.06.009" },
+    { "id": 9, "title": "Industry relatedness and new firm survival in China: do regional institutions and firm heterogeneity matter?", "authors": "Guo Qi, Zhu Shengjun, He Canfei", "source": "Post-Communist Economies", "year": "2018", "doi": "10.1080/14631377.2018.1443253" },
+    { "id": 10, "title": "Production space and regional industrial evolution in China", "authors": "Guo Qi, He Canfei", "source": "GeoJournal", "year": "2017", "doi": "10.1007/s10708-015-9689-4" },
+    { "id": 11, "title": "What sustains larger firms? Evidence from Chinese manufacturing industries", "authors": "He Canfei, Guo Qi, Rigby David", "source": "The Annals of Regional Science", "year": "2017", "doi": "10.1007/s00168-016-0778-1" },
+    { "id": 12, "title": "Geographical agglomeration and co-agglomeration of exporters and nonexporters in China", "authors": "He Canfei, Guo Qi, Ye Xinyue", "source": "GeoJournal", "year": "2016", "doi": "10.1007/s10708-015-9640-8" },
+    { "id": 13, "title": "How did geese fly domestically? Firm demography and spatial restructuring in China's apparel industry", "authors": "Shi Jin, He Canfei, Guo Qi", "source": "Area", "year": "2016", "doi": "10.1111/area.12269" }
+  ]
+}

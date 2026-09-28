@@ -1,0 +1,326 @@
+{
+  "outputDir": "../output/区域间投资联系_英文文献",
+  "tmpDir": "/tmp/en-paper-dl",
+  "rejectedDir": "/tmp/en-paper-rejected",
+  "logFile": "../output/区域间投资联系_英文文献/download-log.json",
+  "paperBudgetMs": 70000,
+  "downloadTimeoutMs": 14000,
+  "useBing": true,
+  "papers": [
+    {
+      "id": 1,
+      "title": "Interregional collaboration and the internationalisation of place-based innovation policy",
+      "authors": "R Boschma, S Iammarino, A Olechnicka",
+      "source": "Journal of International Business …",
+      "year": "2026"
+    },
+    {
+      "id": 2,
+      "title": "National Urban Agglomeration Policy, Market Integration, and Interregional Capital Flows: Firm-Level Evidence from China",
+      "authors": "Q Shen, C Li",
+      "source": "International Review of Economics & Finance",
+      "year": "2026"
+    },
+    {
+      "id": 3,
+      "title": "Industrial variety, interregional industrial linkages, and regional resilience: Evidence from China",
+      "authors": "Y Li",
+      "source": "The Annals of Regional Science",
+      "year": "2024"
+    },
+    {
+      "id": 4,
+      "title": "Financial integration in East Asia and Pacific: regional and interregional linkages",
+      "authors": "R Llovet Montanes, SL Schmukler",
+      "source": "World Bank Research and …",
+      "year": "2018"
+    },
+    {
+      "id": 5,
+      "title": "Global investments and regional development trajectories: the missing links",
+      "authors": "R Crescenzi, S Iammarino",
+      "source": "Regional Studies",
+      "year": "2017"
+    },
+    {
+      "id": 6,
+      "title": "Interregional multipliers: looking backward, looking forward",
+      "authors": "E Dietzenbacher",
+      "source": "Regional Studies",
+      "year": "2002"
+    },
+    {
+      "id": 7,
+      "title": "Inter-Island Economic Linkages and Connections in Indonesia",
+      "authors": "BP Resosudarmo, D Hartono…",
+      "source": "Economics and …",
+      "year": "2009"
+    },
+    {
+      "id": 8,
+      "title": "Interregional Linkages in Multiregional Economics Models",
+      "authors": "F Snickars",
+      "source": "Issaev et al. Multiregional Economic Modeling: Practice …",
+      "year": "1982"
+    },
+    {
+      "id": 9,
+      "title": "Regional investment and interregional programming",
+      "authors": "AP Hurter Jr, LN Moses",
+      "source": "Papers in Regional Science",
+      "year": "1964"
+    },
+    {
+      "id": 10,
+      "title": "Does inter-regional investment by publicly listed companies promote local technological catch-up? A study of the mediation effects of patents in China",
+      "authors": "X Wang, F Li, Y Li, D Hou, L Wang…",
+      "source": "Technology Analysis & …",
+      "year": "2024"
+    },
+    {
+      "id": 11,
+      "title": "An intercity investment network dataset of China based on the enterprise registration records (2000–2020)",
+      "authors": "T Shu, S Yang, T Yu, G Cheng, Y Ren, F Shi…",
+      "source": "Scientific Data",
+      "year": "2025"
+    },
+    {
+      "id": 12,
+      "title": "The role of institutions and markets in shaping intercity investment networks in China",
+      "authors": "R Zhang, J Lin, D Sun",
+      "source": "Cities",
+      "year": "2024"
+    },
+    {
+      "id": 13,
+      "title": "Exploring the association between shrinking cities and the loss of external investment: An intercity network analysis",
+      "authors": "K Wu, C Yao",
+      "source": "Cities",
+      "year": "2021"
+    },
+    {
+      "id": 14,
+      "title": "Rethinking the determinants of urban economic resilience: the role of intercity investment network in Chinese cities",
+      "authors": "J Ren, Q Wang, W Yan",
+      "source": "Habitat International",
+      "year": "2026"
+    },
+    {
+      "id": 15,
+      "title": "Intercity economic ties amplify natural disasters spillovers in China",
+      "authors": "H Sheng, C He, W Hu",
+      "source": "Nature Cities",
+      "year": "2026"
+    },
+    {
+      "id": 16,
+      "title": "Evolution of China's intercity venture capital network: Preferential attachment vs. path dependence",
+      "authors": "D Du, J Wang, J Li, J Huang",
+      "source": "Cities",
+      "year": "2024"
+    },
+    {
+      "id": 17,
+      "title": "Hometown favoritism and intercity investment networks in china",
+      "authors": "X Shi",
+      "source": "Available at SSRN",
+      "year": "2021"
+    },
+    {
+      "id": 18,
+      "title": "Exploring China's venture capital investment dynamics and influencing factors: a perspective of intercity flow",
+      "authors": "D Du, J Wang, J Li",
+      "source": "Habitat International",
+      "year": "2025"
+    },
+    {
+      "id": 19,
+      "title": "Exploring the spatial pattern and influencing factors of intercity capital flows from 2005 to 2019: A case study of Yangtze River Delta region, China",
+      "authors": "Z Li, F Zhen, W Liu",
+      "source": "Growth and Change",
+      "year": "2024"
+    },
+    {
+      "id": 20,
+      "title": "Mapping urban networks through inter-firm investment linkages: The case of listed companies in Jiangsu, China",
+      "authors": "Z Li, Z Feng",
+      "source": "Sustainability",
+      "year": "2019"
+    },
+    {
+      "id": 21,
+      "title": "Fair Competition Review System and cross-regional capital flow: Evidence from China",
+      "authors": "S Li, N Xu",
+      "source": "Finance Research Letters",
+      "year": "2024"
+    },
+    {
+      "id": 22,
+      "title": "Digital finance and capital mobility: Evidence from cross-regional investment of listed companies in China",
+      "authors": "Q Liu, R Li, Y Wang",
+      "source": "Pacific",
+      "year": ""
+    },
+    {
+      "id": 23,
+      "title": "Impact of political connections on constructing a unified national market: Evidence from inter-regional capital flows",
+      "authors": "M Wan, L Li",
+      "source": "International Review of Financial Analysis",
+      "year": "2025"
+    },
+    {
+      "id": 24,
+      "title": "Uncertainty and Cross-regional Investment",
+      "authors": "S Chen, S Quan",
+      "source": "Applied Economics",
+      "year": "2026"
+    },
+    {
+      "id": 25,
+      "title": "Do government-guided funds\" guide\" the transregional mobility of capital? Evidence from cross-city equity investments",
+      "authors": "K Peng, F Yu, D Kong, Y Li, R Geng",
+      "source": "Finance Research Letters",
+      "year": "2024"
+    },
+    {
+      "id": 26,
+      "title": "The impact of data sharing on capital flows across regions",
+      "authors": "T Sheng, J Teng",
+      "source": "Applied Economics",
+      "year": "2025"
+    },
+    {
+      "id": 27,
+      "title": "Capital flows under integration: Evidence from China's metropolitan area development planning",
+      "authors": "X Dong, B Miao, R Chi",
+      "source": "China Economic Review",
+      "year": "2023"
+    },
+    {
+      "id": 28,
+      "title": "Uneven tax enforcement and cross-regional capital flows: The role of economic resilience and industrial agglomeration",
+      "authors": "M Fu, P Zhu",
+      "source": "Finance Research Letters",
+      "year": "2026"
+    },
+    {
+      "id": 29,
+      "title": "How does government data openness affect cross-regional capital flow? Evidence from Chinese-listed firms' off-site investment",
+      "authors": "Y Long, X Zhang, L Wang",
+      "source": "Economic Modelling",
+      "year": "2025"
+    },
+    {
+      "id": 30,
+      "title": "Patent pledgeability and cross-region capital flows: Evidence from firms' trans-regional Investment in China",
+      "authors": "K Wang, Y Wei, S Zeng",
+      "source": "Pacific",
+      "year": ""
+    },
+    {
+      "id": 31,
+      "title": "Mapping the spatial evolution of entrepreneurial ecosystems: a clustering perspective on global investment flows",
+      "authors": "DC Vicentin, A Pigola, B Fischer…",
+      "source": "International Journal of …",
+      "year": "2026"
+    },
+    {
+      "id": 32,
+      "title": "Network structure evolution and spatial complexity of global transnational investment",
+      "authors": "Y Wenlong, D Debin, Y Xiaojun, S Wentian…",
+      "source": "Geographical …",
+      "year": "2017"
+    },
+    {
+      "id": 33,
+      "title": "The pattern, evolution, and mechanism of venture capital flows in the Guangdong-Hong Kong-Macao Greater Bay Area, China",
+      "authors": "K Wu, Y Wang, H Zhang, Y Liu, Y Ye, X Yue",
+      "source": "Journal of Geographical …",
+      "year": "2022"
+    },
+    {
+      "id": 34,
+      "title": "A review of mobility and flow research: Theoretical evolution and frontier issues in social spatial reconstruction",
+      "authors": "Y Wang, S Gao",
+      "source": "Geographical Research Bulletin",
+      "year": "2026"
+    },
+    {
+      "id": 35,
+      "title": "Agent-based simulation on the evolution and development of regional spatial structure with technology and capital diffusion in China",
+      "authors": "G Gu, Z Wang",
+      "source": "Dili Xuebao/Acta Geographica Sinica",
+      "year": "2014"
+    },
+    {
+      "id": 36,
+      "title": "Network capital and urban development: An inter-urban capital flow network analysis",
+      "authors": "S Shi, SK Wong, C Zheng",
+      "source": "Regional Studies",
+      "year": "2022"
+    },
+    {
+      "id": 37,
+      "title": "The rise of venture capital centres in China: A spatial and network analysis",
+      "authors": "F Pan, SXB Zhao, D Wójcik",
+      "source": "Geoforum",
+      "year": "2016"
+    },
+    {
+      "id": 38,
+      "title": "The evolution of global cross-border R&D investment: A network analysis integrating geographical thinking",
+      "authors": "T Li, D Du",
+      "source": "Applied Geography",
+      "year": "2023"
+    },
+    {
+      "id": 39,
+      "title": "Mapping urban network through inter-firm investment relationship: a case study of Yangtze River Delta",
+      "authors": "Z Li, F Zhen, X Fu",
+      "source": "Geographical Science",
+      "year": "2019"
+    },
+    {
+      "id": 40,
+      "title": "The innovation networks shaped by large innovative enterprises in urban China",
+      "authors": "H Ma, YD Wei, X Huang, W Zhang",
+      "source": "Journal of Geographical Sciences",
+      "year": "2023"
+    },
+    {
+      "id": 41,
+      "title": "Location decisions and network configurations of foreign investment in urban China",
+      "authors": "YHD Wei, J Luo, Q Zhou",
+      "source": "The Professional Geographer",
+      "year": "2010"
+    },
+    {
+      "id": 42,
+      "title": "Spatial structure and influencing factors of urban investment and financing network in China",
+      "authors": "Y Yaling, L Wensheng, L Zhenfa…",
+      "source": "World Regional …",
+      "year": "2020"
+    },
+    {
+      "id": 43,
+      "title": "… China's urban economic transition through symbiotic state-firm dynamics: An integrated perspective from urban governance and global production networks",
+      "authors": "K Wang, CKL Chung, J Xu, Z Long",
+      "source": "Cities",
+      "year": "2024"
+    },
+    {
+      "id": 44,
+      "title": "Production and R&D networks of foreign ventures in China: Implications for technological dynamism and regional development",
+      "authors": "YHD Wei, Y Zhou, Y Sun, GCS Lin",
+      "source": "Applied geography",
+      "year": "2012"
+    },
+    {
+      "id": 45,
+      "title": "Mapping producer services networks in mainland Chinese cities",
+      "authors": "M Zhao, X Liu, B Derudder, Y Zhong…",
+      "source": "Urban Studies",
+      "year": "2015"
+    }
+  ]
+}
