@@ -274,28 +274,19 @@ node tools/get-dois.js --config examples/en-guoqi.json
 
 ## 本次批量下载经验（2026-09：paper.txt / paper2.txt 参考文献批量下载）
 
-> 用「清单 + 批量管线 + 手动抢救」方式下载两篇综述论文的全部参考文献
-> （`output/长三角城市投资联系_参考文献/` 42 条、`output/城际投资联系研究进展_参考文献/` 99 条，合计成功 127 / 失败 13）。
+> 按「清单 + 批量管线 + 手动抢救」下载两篇综述论文全部参考文献：
+> `output/长三角城市投资联系_参考文献/` 42 条（成功 32）、`output/城际投资联系研究进展_参考文献/` 99 条（成功 95），合计成功 127 / 无法下载 13。
 
-### 新工具（本批次新增，均在 tools/）
-- **`tools/batch-dois.js`**：fetch 直连 Crossref REST API 批量补 DOI（替代浏览器逐条查的 `get-dois.js`）；对论文里印错的 DOI 用题名关键词打分纠正（本批 [1][2][7][17][33] 等 DOI 均有误）。
-- **`tools/sync-list.js`**：把下载日志（`en-log.json` / `cnki-log.json`）状态同步回 Markdown 清单（只改行末「状态/文件」两列），每批下载后自动更新清单。
-- **`tools/probe-cnki.js`**：向知网发关键词探测真实题名（排查标题失配最有用）。
-- **`tools/salvage.js`**：手动抢救——对管线失败的条目用有头 Chrome 直下 / 点开放获取按钮，pdf-parse 校验后归档。
+本批沉淀了 4 个可复用工具（`tools/`，详见「目录结构」）：`batch-dois.js`（Crossref 批量补/纠 DOI）、`sync-list.js`（日志↔清单状态同步）、`probe-cnki.js`（知网题名探测）、`salvage.js`（失败条目手动抢救），并把以下经验写回了代码/文档：
 
-### 关键经验
-1. **CNKI 标题标点归一化是刚需**：知网存储题名与论文参考文献题名常在 全角/半角（冒号 `：`/`:`、括号 `（）`/`()`、引号 `“”`/`"`、逗号 `、`/`,`）上不一致，整题名 TI 检索失配——已在 `src/cnki/cnki.js` 的 `findRowExpr.norm()` 统一归一后再比对。仍失配的（如 `——` vs `：`），用 `probe-cnki.js` 探真实题名改配置重跑。
-2. **CNKI 连续下载约 40+ 篇后出现「下载未开始或超时」**：`bar.cnki.net` 频控。应对：关 `login.cnki.net` 标签页，停 1-2 分钟，逐篇重跑（`--ids N` + 间隔），重跑会重新完成 检索→文章页→新下载链接 流程。
-3. **英文付费墙「可抢救性」排序**（校内 IP，2026-09 实测）：
-   - **SAGE 中国镜像 `sage.cnpereading.com/doi/<doi>`**：Urban Studies / IJURR 等 10.1080/10.1177 前缀的主通道，点击「PDF」按钮成功率高。
-   - **Wiley `onlinelibrary.wiley.com/doi/pdfdirect/<doi>`**：部分文章（含 OA）有头 Chrome 直接导航可下（#2 由此救回），Cloudflare 不稳定，失败换路。
-   - **T&F `tandfonline.com/doi/pdf/<doi>`**：有头 Chrome 直接导航常可用（#71/#72/#98），比 `doi/full` 落地页稳。
-   - **作者/机构库（pure.eur.nl、eprints、edu）**：常藏 published/working 版（#34 命中 working paper 版）。
-   - **OJS 平台（oekom.de 等）**：PDF 直链为 `article/download/<id>/<galley>`。
-4. **Web of Science「Citation Report」伪 PDF 陷阱**：候选里混有 WoS 引文报告导出，meta 含目标题名导致误判（#90/#98 中招）——已在 `src/en/verify.js` 加 `citation report / web of science / clarivate` 黑名单。
-5. **Featured Graphic 类短文**（如 Env & Planning A 的 2 页图版）：正文以图为主，pdf-parse 文本命中分常不足 0.7 被误拒（#46），需人工确认。
-6. **题名截断检索**：知网整题名搜不到（如 `港口-腹地`）时，用主关键词 `korder=SU/TI` 截断搜，再走文章页直取下载链接。
-7. **跨设备 rename 陷阱**：`/tmp` 与 `/workspace` 不同文件系统，`fs.renameSync` 抛 EXDEV——归档统一 `rename → copyFile+unlink` 兜底。
+1. **CNKI 标题标点归一化是刚需**：知网存储题名与参考文献题名常在全角/半角（冒号 `：`/`:`、括号 `（）`/`()`、引号 `“”`/`"`、逗号 `、`/`,`）上不一致，整题名 TI 检索会失配——已在 `src/cnki/cnki.js` 的 `findRowExpr.norm()` 统一归一后再比对；个别仍失配（如 `——` vs `：`）的，用 `probe-cnki.js` 探出知网真实题名改配置重跑。
+2. **CNKI 连续下载约 40+ 篇后出现「下载未开始或超时」**：`bar.cnki.net` 频控所致。应对：关闭 `login.cnki.net` 标签页，停 1-2 分钟，逐篇重跑（`--ids N` + 间隔），重跑会重新完成「检索→文章页→提取新下载链接→下载」流程。
+3. **英文付费墙「可抢救性」排序**（校园网 IP，2026-09 实测）：SAGE 中国镜像 `sage.cnpereading.com/doi/<doi>` 是 Urban Studies / IJURR 等前缀的主通道（点「PDF」按钮成功率高）；Wiley `onlinelibrary.wiley.com/doi/pdfdirect/<doi>` 部分文章可直下（Cloudflare 不稳）；T&F `tandfonline.com/doi/pdf/<doi>` 有头 Chrome 直下比 `doi/full` 落地页稳；作者/机构库（pure.eur.nl、eprints、edu）常藏 published/working 版；OJS 平台（oekom.de 等）PDF 直链为 `article/download/<id>/<galley>`。
+4. **Web of Science「Citation Report」伪 PDF 陷阱**：Bing 候选里混有 WoS 引文报告导出，meta 含目标题名会导致误判（#90/#98 中招）——已在 `src/en/verify.js` 加 `citation report / web of science / clarivate` 黑名单直接拒收。
+5. **Featured Graphic 类短文**（如 Env & Planning A 的 2 页图版）正文以图为主，`pdf-parse` 文本命中分常不足 0.7 被误拒（#46），此类需人工确认后保留。
+6. **题名截断检索**：知网整题名搜不到（如题内连字符 `港口-腹地`）时，用主关键词 `korder=SU/TI` 截断搜，再走文章页直取下载链接。
+7. **跨设备 rename 陷阱**：`/tmp` 与 `/workspace` 不在同一文件系统，`fs.renameSync` 抛 EXDEV——归档统一用「`rename` → `copyFile + unlink` 兜底」。
+8. **DOI 原文印错很常见**：本批至少 5 条参考文献的 DOI 在原文中重复/张冠李戴，均以 Crossref 题名检索结果为准（如 Dunning 1981 应为 `10.1007/bf02696577`、Derudder 2010 应为 `10.1177/0042098010372682`）。
 
 ## 合规提示
 
