@@ -2,5 +2,4 @@ node_modules/
 output/
 .tmp-download/
 *.log
-paper.txt
-paper2.txt
+input/
